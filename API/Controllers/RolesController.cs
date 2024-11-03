@@ -29,5 +29,11 @@ namespace API.Controllers
         {
             return await _context.Roles.FindAsync(id);
         }
+
+        // [HttpPost("{id}")]
+        // public async Task<ActionResult<Rol>> CreateRol(int id)
+        // {
+        //     return await _context.Roles.AddAsync(id);
+        // }
     }
 }

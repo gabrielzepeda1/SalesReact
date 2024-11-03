@@ -15,6 +15,7 @@ namespace DB.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             
             modelBuilder.Entity<Rol>() 
             .Property(b => b.CreadoPor)
